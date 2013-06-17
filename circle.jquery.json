@@ -1,7 +1,7 @@
 {
   "name" : "circle",
 	"version" : "1.0.0",
-	"title" : "circle",
+	"title" : "Circle",
 	"description" : "Circle is a Javascript global-menu library for jQuery",
 	"keyword" : [
 		"circle",
