@@ -1,0 +1,31 @@
+{
+  "name" : "circle",
+	"version" : "1.0.0",
+	"title" : "circle",
+	"description" : "Circle is a Javascript global-menu library for jQuery",
+	"keyword" : [
+		"circle",
+		"global-menu",
+		"mune",
+		"animation"
+	],
+	"author" : {
+		"name" : "chen han",
+		"email" : "gpgkd906@gmail.com",
+		"url" : "http://www.gpgkd906.com"
+	},
+	"bugs" : "https://github.com/gpgkd906/jquery.circle.js/issues",
+	"licenses" : [
+		{
+			"type" : "MIT",
+			"url" : "http://opensource.org/licenses/MIT"
+		}
+	],
+	"dependencies" : {
+		"jquery" : ">= 1.4.2"
+	},
+	"homepage" : "http://uc.gpgkd906.com",
+	"demo" : "http://uc.gpgkd906.com",
+	"docs" : "http://uc.gpgkd906.com",
+	"download" : "https://github.com/gpgkd906/jquery.circle.js/archive/master.zip"
+}
