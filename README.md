@@ -32,4 +32,4 @@ just make sure that you get the .main and .menu in html.
 ```js
 $("#circle").circle(option);
 ```
-the option is unnecessary,but you can customize it to make new action.
+the option is unnecessary,but you can customize it to make new action,also.
