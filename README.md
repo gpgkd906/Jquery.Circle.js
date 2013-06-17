@@ -3,7 +3,7 @@
 ## About ##
 
 Circle is a Javascript global-menu library for jQuery.  
-Read more at the website: <http://root.gpgkd906.com/circle/>
+Read more at the website: <http://uc.gpgkd906.com/>
 
 ## Installation ##
 
