@@ -1,0 +1,159 @@
+<html>
+<head>
+<link rel="stylesheet" href="style/bootstrap.css">
+<link rel="stylesheet" href="style/style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/jquery.circle.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav">
+            <li><a class="brand">Circle</a></li>
+            <li class="divider-vertical"></li>
+            <li><a>just another jQuery plugin</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div id="content">
+      <div id="circle">
+        <a class="main"><img src="img/main.png" ></a>
+        <a class="menu" href=""><img src="img/home.png" ></a>
+        <a class="menu" href=""><img src="img/profile.png" ></a>
+        <a class="menu" href=""><img src="img/schedule.png" ></a>
+        <a class="menu" href=""><img src="img/group.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+      </div>
+      <div id="circle2">
+        <a class="main"><img src="img/main.png" ></a>
+        <a class="menu" href=""><img src="img/home.png" ></a>
+        <a class="menu" href=""><img src="img/profile.png" ></a>
+        <a class="menu" href=""><img src="img/schedule.png" ></a>
+        <a class="menu" href=""><img src="img/group.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+      </div>
+      <div id="circle3">
+        <a class="main"><img src="img/main.png" ></a>
+        <a class="menu" href=""><img src="img/home.png" ></a>
+        <a class="menu" href=""><img src="img/profile.png" ></a>
+        <a class="menu" href=""><img src="img/schedule.png" ></a>
+        <a class="menu" href=""><img src="img/group.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+      </div>      
+      <div id="circle4">
+        <a class="main"><img src="img/main.png" ></a>
+        <a class="menu" href=""><img src="img/home.png" ></a>
+        <a class="menu" href=""><img src="img/profile.png" ></a>
+        <a class="menu" href=""><img src="img/schedule.png" ></a>
+        <a class="menu" href=""><img src="img/group.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+      </div>      
+      <div class="info">
+        <p>circle是一个提供菜单自定义的插件，点击左边的图标，你可以看到它的一些基本效果。</p>
+        <p>require : jquery 1.4+</p>
+        <p>下载：<a href="https://github.com/gpgkd906">github</a> , <a href="js/jquery.circle.js">js文件</a></p>
+        <p>使用方法如下所示：</p>
+        <p>
+          html:
+          <pre>&lt;div id="circle"&gt;
+  &lt;a class="main"&gt;&lt;img src="img/main.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/home.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/profile.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/schedule.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/group.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/add.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/search.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/config.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/add.png" &gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+        </p>
+        <p>
+          js:
+          <pre><code>$(function(){
+    $("#circle").circle();
+});</code></pre>
+        </p>
+        <p>当然，插件也提供了各种选项用于自定义，例如改变环状的运动方向，或者是一些细节的动作。</p>
+        <p>作为基本选项，插件提供了下面一些选项让你可以自定义，列举的都是当前默认值。</p>
+        <p>
+          <pre>//主按键的属性
+main : {
+   width : 64
+},
+//初期位置，x轴正方向为0度
+dip : -15,
+//中央按键于环状按键之间的距离(不包括双方半径)
+radius : 50,
+//jquery easing，这个没什么好说的
+easing : "linear",
+//动画速率
+duration : 100,
+//环状配置下的范围，以初始位置开始计算的角度。
+range : 360,
+//菜单打开事件响应完毕时触发的动作。
+open : function() {},
+//菜单关闭事件响应完毕时触发的动作。
+close : function() {},
+//z轴，有时候你可能想把它和一些别的要素放在一起
+zIndex : 0,
+//延迟倍率
+delay : 1,
+//是否对按键的四角自动平滑
+corner : true,
+//方向，只有1，-1两个值
+direct : 1,
+//关闭菜单的动画是打开菜单的动画的对称逆转
+reveser : true,
+//主按键的cursor设定
+cursor : "pointer"</pre>
+        </p>
+        <p>除此之外，还有一些选项是我们可以设置的，比如说菜单打开动画</p>
+        <p>点击左边的图标，看看效果</p>
+        <p>
+          <pre>animate : "panel"</pre>
+        </p>
+        <p>这是除了环状菜单之外，另外提供的一个仿开始菜单的模式</p>
+        <p>此外，我们并不一定要在HTML中写入所有的菜单按键，也是可以直接javascript数组传递给插件。注意主菜单键是需要用html记入的。</p>
+	<br/><br/>
+	<br/><br/>
+	<br/><br/>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="navbar navbar-fixed-bottom">
+      <p>powered by gpgkd906</p>
+      <p>Code licensed under the
+        <a href="https://github.com/angular/angular.js/blob/master/LICENSE" target="_blank">The
+          MIT License</a>
+      </p>
+    </div>
+  </footer>
+<script src="js/circle.js"></script>
+</body>
+</html>

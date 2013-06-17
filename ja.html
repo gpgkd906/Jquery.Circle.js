@@ -1,0 +1,158 @@
+<html>
+<head>
+<link rel="stylesheet" href="style/bootstrap.css">
+<link rel="stylesheet" href="style/style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/jquery.circle.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav">
+            <li><a class="brand">Circle</a></li>
+            <li class="divider-vertical"></li>
+            <li><a>just another jQuery plugin</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div id="content">
+      <div id="circle">
+        <a class="main"><img src="img/main.png" ></a>
+        <a class="menu" href=""><img src="img/home.png" ></a>
+        <a class="menu" href=""><img src="img/profile.png" ></a>
+        <a class="menu" href=""><img src="img/schedule.png" ></a>
+        <a class="menu" href=""><img src="img/group.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+      </div>
+      <div id="circle2">
+        <a class="main"><img src="img/main.png" ></a>
+        <a class="menu" href=""><img src="img/home.png" ></a>
+        <a class="menu" href=""><img src="img/profile.png" ></a>
+        <a class="menu" href=""><img src="img/schedule.png" ></a>
+        <a class="menu" href=""><img src="img/group.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+      </div>
+      <div id="circle3">
+        <a class="main"><img src="img/main.png" ></a>
+        <a class="menu" href=""><img src="img/home.png" ></a>
+        <a class="menu" href=""><img src="img/profile.png" ></a>
+        <a class="menu" href=""><img src="img/schedule.png" ></a>
+        <a class="menu" href=""><img src="img/group.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+      </div>      
+      <div id="circle4">
+        <a class="main"><img src="img/main.png" ></a>
+        <a class="menu" href=""><img src="img/home.png" ></a>
+        <a class="menu" href=""><img src="img/profile.png" ></a>
+        <a class="menu" href=""><img src="img/schedule.png" ></a>
+        <a class="menu" href=""><img src="img/group.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+        <a class="menu" href=""><img src="img/search.png" ></a>
+        <a class="menu" href=""><img src="img/config.png" ></a>
+        <a class="menu" href=""><img src="img/add.png" ></a>
+      </div>      
+      <div class="info">
+        <p>circleはちょっとしたメニュー用のjQueryプラグインです、左の図形をクリックしてその動きを確認してください</p>
+        <p>require : jquery 1.4+</p>
+        <p>ダウンロード：<a href="https://github.com/gpgkd906">github</a> , <a href="js/jquery.circle.js">jsファイル</a></p>
+        <p>使い方：</p>
+        <p>
+          html:
+          <pre>&lt;div id="circle"&gt;
+  &lt;a class="main"&gt;&lt;img src="img/main.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/home.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/profile.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/schedule.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/group.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/add.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/search.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/config.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/add.png" &gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+        </p>
+        <p>
+          js:
+          <pre><code>$(function(){
+    $("#circle").circle();
+});</code></pre>
+        </p>
+        <p>もちろん，カスタマイズ用にパラメタは提供しています，例えば進行方向など。</p>
+        <p>以下のパラメタは提供しています、その値はデフォールト値です。</p>
+        <p>
+          <pre>//メインボタンの直径
+main : {
+   width : 64
+},
+//初期位置、水平正方向を0度とする
+dip : -15,
+//サブボタン外側とメインボタン外側の距離
+radius : 50,
+//jquery easing
+easing : "linear",
+//各サブボタンのアニメーション時間
+duration : 100,
+//サブボタンの最終的に配置するエリアの範囲、初期位置から順時計に角度を計算する
+range : 360,
+//オープンアクションの終わりに発火する
+open : function() {},
+//クローズアクションの終わりに発火する
+close : function() {},
+//レイアウトレベル
+zIndex : 0,
+//延遅する倍率
+delay : 1,
+//画像を丸角にするかしないか
+corner : true,
+//方向(1 と -1だけが有効です)
+direct : 1,
+//クローズ動画をオープン動画の逆転にするかしないか
+reveser : true,
+//cursor
+cursor : "pointer"</pre>
+        </p>
+        <p>他に設定することもあるが、例えば動画の種類</p>
+        <p>左の図形をクリックしてみてください</p>
+        <p>
+          <pre>animate : "panel"</pre>
+        </p>
+        <p>これはwindowsのスタートパネルを真似る動きです。</p>
+	<br/><br/>
+	<br/><br/>
+	<br/><br/>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="navbar navbar-fixed-bottom">
+      <p>powered by gpgkd906</p>
+      <p>Code licensed under the
+        <a href="https://github.com/angular/angular.js/blob/master/LICENSE" target="_blank">The
+          MIT License</a>
+      </p>
+    </div>
+  </footer>
+<script src="js/circle.js"></script>
+</body>
+</html>
