@@ -3,19 +3,28 @@ $(function(){
 
     $("#circle2").circle({
         direct : -1,
-	delay : 1
+	    delay : 1,
+        item : [
+            {
+                url : "",
+                img_file : "img/search.png",
+                mouseover : function(){
+                    alert("here we got the mouseover event");
+                }
+            }
+        ]
     }); 
 
     $("#circle3").circle({
         animate : "feather",
-        range : 480,
+        range : 270,
         dip : 40,
         delay : 1,
         open : function() {
-            alert("opened!!");
+            alert("this is a open function");
         },
         close : function() {
-            alert("closed!!!");
+            alert("this is a close function");
         }
     });
 
