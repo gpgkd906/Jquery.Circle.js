@@ -19,42 +19,167 @@
     </section>
 
     <section class="main-content">
-      <h1>
-<a id="circle" class="anchor" href="#circle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Circle</h1>
+      <p>
+</p>
 
-<h2>
-<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h2>
 
-<p>Circle is a Javascript global-menu library for jQuery.  </p>
 
-<h2>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
 
-<p>Just include the Javascript file after you've included jQuery.</p>
 
-<p>You need at least jQuery 1.4.2, but use the latest jQuery to get better performance</p>
 
-<h2>
-<a id="basic-usage" class="anchor" href="#basic-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Basic usage</h2>
 
-<p>first make the global menu just as no style.
-just make sure that you get the .main and .menu in html.</p>
+<p>
+</p>
 
-<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>circle<span class="pl-pds">"</span></span>&gt;
-  &lt;<span class="pl-ent">a</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>main<span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>img/main.png<span class="pl-pds">"</span></span> &gt;&lt;/<span class="pl-ent">a</span>&gt;
-  &lt;<span class="pl-ent">a</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>menu<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>img/home.png<span class="pl-pds">"</span></span> &gt;&lt;/<span class="pl-ent">a</span>&gt;
-  &lt;<span class="pl-ent">a</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>menu<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>img/profile.png<span class="pl-pds">"</span></span> &gt;&lt;/<span class="pl-ent">a</span>&gt;
-  &lt;<span class="pl-ent">a</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>menu<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>img/schedule.png<span class="pl-pds">"</span></span> &gt;&lt;/<span class="pl-ent">a</span>&gt;
-  &lt;<span class="pl-ent">a</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>menu<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>img/group.png<span class="pl-pds">"</span></span> &gt;&lt;/<span class="pl-ent">a</span>&gt;
-  &lt;<span class="pl-ent">a</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>menu<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>img/add.png<span class="pl-pds">"</span></span> &gt;&lt;/<span class="pl-ent">a</span>&gt;
-  &lt;<span class="pl-ent">a</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>menu<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>img/search.png<span class="pl-pds">"</span></span> &gt;&lt;/<span class="pl-ent">a</span>&gt;
-  &lt;<span class="pl-ent">a</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>menu<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>img/config.png<span class="pl-pds">"</span></span> &gt;&lt;/<span class="pl-ent">a</span>&gt;
-  &lt;<span class="pl-ent">a</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>menu<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>img/add.png<span class="pl-pds">"</span></span> &gt;&lt;/<span class="pl-ent">a</span>&gt;
-&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+<p> 
+    <div>
+      <div>
+        <div>
+          <ul>
+            <li>Circle</li>
+            <li>
+            <li>just another jQuery plugin</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+   
+  </p><div>
+    <div id="content">
+      <div id="circle">
+        <img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/main.png">
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/home.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/profile.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/schedule.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/group.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/add.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/search.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/config.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/add.png"></a>
+      </div>
+      <div id="circle2">
+        <img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/main.png">
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/home.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/profile.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/schedule.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/group.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/add.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/search.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/config.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/add.png"></a>
+      </div>
+      <div id="circle3">
+        <img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/main.png">
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/home.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/profile.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/schedule.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/group.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/add.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/search.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/config.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/add.png"></a>
+      </div>
+<br>
+      <div id="circle4">
+        <img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/main.png">
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/home.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/profile.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/schedule.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/group.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/add.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/search.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/config.png"></a>
+        <a href=""><img src="https://raw.githubusercontent.com/gpgkd906/Jquery.Circle.js/master/img/add.png"></a>
+      </div>
+<br>
+      <div>
+        <p>circle是一个提供菜单自定义的插件，点击左边的图标，你可以看到它的一些基本效果。</p>
+        <p>require : jquery 1.4+</p>
+        <p>下载：<a href="https://github.com/gpgkd906">github</a> , zip</p>
+        <p>使用方法如下所示：</p>
+        <p>
+          html:
+          </p>
+<pre>&lt;div id="circle"&gt;
+  &lt;a class="main"&gt;&lt;img src="img/main.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/home.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/profile.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/schedule.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/group.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/add.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/search.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/config.png" &gt;&lt;/a&gt;
+  &lt;a class="menu" href=""&gt;&lt;img src="img/add.png" &gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+        
+        <p>
+          js:
+          </p>
+<pre><code>$(function(){
+    $("#circle").circle();
+});</code></pre>
+        
+        <p>当然，插件也提供了各种选项用于自定义，例如改变环状的运动方向，或者是一些细节的动作。</p>
+        <p>作为基本选项，插件提供了下面一些选项让你可以自定义，列举的都是当前默认值。</p>
+        <p>
+          </p>
+<pre>//主按键的属性
+main : {
+   width : 64
+},
+//初期位置，x轴正方向为0度
+dip : -15,
+//中央按键于环状按键之间的距离(不包括双方半径)
+radius : 50,
+//jquery easing，这个没什么好说的
+easing : "linear",
+//动画速率
+duration : 100,
+//环状配置下的范围，以初始位置开始计算的角度。
+range : 360,
+//菜单打开事件响应完毕时触发的动作。
+open : function() {},
+//菜单关闭事件响应完毕时触发的动作。
+close : function() {},
+//z轴，有时候你可能想把它和一些别的要素放在一起
+zIndex : 0,
+//延迟倍率
+delay : 1,
+//是否对按键的四角自动平滑
+corner : true,
+//方向，只有1，-1两个值
+direct : 1,
+//关闭菜单的动画是打开菜单的动画的对称逆转
+reveser : true,
+//主按键的cursor设定
+cursor : "pointer"</pre>
+        
+        <p>除此之外，还有一些选项是我们可以设置的，比如说菜单打开动画</p>
+        <p>点击左边的图标，看看效果</p>
+        <p>
+          </p>
+<pre>animate : "panel"</pre>
+        
+        <p>这是除了环状菜单之外，另外提供的一个仿开始菜单的模式</p>
+        <p>此外，我们并不一定要在HTML中写入所有的菜单按键，也是可以直接javascript数组传递给插件。注意主菜单键是需要用html记入的。</p>
+      </div>
+    </div>
+  </div>
 
-<div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">"</span>#circle<span class="pl-pds">"</span></span>).<span class="pl-en">circle</span>(option);</pre></div>
+<p> 
+    <div>
+      <p>powered by gpgkd906</p>
+      <p>Code licensed under the
+        <a href="https://github.com/angular/angular.js/blob/master/LICENSE" target="_blank">The
+          MIT License</a>
+      </p>
+    </div>
+   </p>
 
-<p>the option is unnecessary,but you can customize it to make new action,also.</p>
+
+
+<p>
+</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/gpgkd906/Jquery.Circle.js">Jquery.circle.js</a> is maintained by <a href="https://github.com/gpgkd906">gpgkd906</a>.</span>
