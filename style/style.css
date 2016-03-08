@@ -1,0 +1,34 @@
+body {
+    background-color : rgb(240, 240, 240);   
+}
+
+#content {
+    position : absolute;
+    top : 60px;
+}
+
+#circle {
+    position : absolute;
+    top : 40px;
+}
+
+#circle2 {
+    position : absolute;
+    top : 400px;
+}
+
+#circle3 {
+    position : absolute;
+    top : 600px;
+}
+
+#circle4 {
+    position : absolute;
+    top : 1100px;
+}
+
+.info {
+    margin-left : 120px;
+    max-width : 600px;
+    font-size : 16px;
+}
